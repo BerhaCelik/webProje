@@ -1,44 +1,19 @@
-# Web Teknolojileri Dersi Projesi
+# Kişisel Web Sitesi Projesi
 
-## 📘 Proje Açıklaması
+Bu repo, Web Teknolojileri dersi (2024-2025 Bahar) kapsamında geliştirilen kişisel web sitesi projemi içermektedir.
 
-Bu proje, Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü **Web Teknolojileri** dersi kapsamında bireysel olarak hazırlanmıştır.  
-Proje kapsamında HTML, CSS, JavaScript, PHP gibi teknolojiler kullanılarak **kişisel bir tanıtım sitesi** geliştirilmiştir.
+## Proje Amacı
+Bu proje, kendimi ve memleketimi tanıtan kişisel bir web sitesi oluşturmayı amaçlamaktadır. HTML, CSS, JavaScript ve Bootstrap kullanarak responsive bir web sitesi geliştireceğim.
 
-## 🧩 Kullanılan Teknolojiler
-
-- HTML5
-- CSS3 (Bootstrap destekli responsive yapı)
-- JavaScript
-- PHP (login işlemleri için)
-- Ücretsiz API (ilgi alanı verisi çekmek için)
-- Git & GitHub (versiyon kontrol ve açık kaynak kod yönetimi)
-
-## 🗂️ Sayfa İçerikleri
-
-- `index.html` → Hakkında sayfası (hobiler, etkinlikler, resimler)
-- `cv.html` → Özgeçmiş sayfası (semantik tag’larla hazırlanmış)
-- `sehrim.html` → Memleket bilgileri + slider ve içerik linkleri
-- `mirasimiz.html` veya `takimimiz.html` → Kültürel miras veya takım tanıtımı
-- `ilgi-alanlarim.html` → API ile dinamik veri gösterimi
-- `login.html` → Giriş formu, PHP ile kontrol
-- `iletisim.html` → JavaScript + Framework ile kontrol edilen form
-- `style.css` → Tüm sayfaların stilleri
-
-## 🧪 Proje Gereklilikleri
-
-Bu projede:
-- Hazır tema **kullanılmamıştır**, Bootstrap bileşenleriyle sıfırdan responsive tasarım yapılmıştır.
-- Giriş işlemleri PHP ile gerçekleştirilmiş, kullanıcı doğrulama yapılmıştır.
-- Form doğrulamaları hem JavaScript hem popüler bir JS framework ile yapılmıştır.
-- Slider yapısı ve bağlantılı içerikler eklenmiştir.
-
-## 🔗 Linkler
-
-- 🔗 GitHub Repository: [webProje](https://github.com/BerhaCelik/webProje)
-- 🌐 Yayın Linki (host edildikten sonra eklenecek)
-
-## 👤 Geliştirici
+## İçerik
+- Hakkında sayfası
+- Özgeçmiş sayfası
+- Şehrim sayfası
+- Mirasımız/Takımımız sayfası
+- İlgi Alanlarım sayfası
+- Login sayfası
+- İletişim sayfası
+ Geliştirici
 
 - **Ad Soyad:** Berha Çelik  
 - **Öğrenci No:** B241210099 
