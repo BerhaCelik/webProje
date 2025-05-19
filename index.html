@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitem - Hakkımda</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (ikonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Kendi CSS Dosyamız -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo/Marka Adı - Kendi adınızı ve soyadınızı buraya ekleyin -->
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-user-circle me-2"></i>Berha Çelik
+                </a>
+                
+                <!-- Mobil görünüm için hamburger menü -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navbar Linkleri -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">
+                                <i class="fas fa-home me-1"></i>Hakkımda
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ozgecmis.html">
+                                <i class="fas fa-file-alt me-1"></i>Özgeçmiş
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sehrim.html">
+                                <i class="fas fa-city me-1"></i>Şehrim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mirasimiz.html">
+                                <i class="fas fa-landmark me-1"></i>Mirasımız
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ilgi-alanlarim.html">
+                                <i class="fas fa-heart me-1"></i>İlgi Alanlarım
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">
+                                <i class="fas fa-envelope me-1"></i>İletişim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <i class="fas fa-sign-in-alt me-1"></i>Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+    <div class="container my-5">
+        <!-- Karşılama Bölümü -->
+        <div class="row mb-5">
+            <div class="col-md-4 mb-4">
+                <!-- Profil fotoğrafınızı img/ klasörüne ekleyin ve aşağıdaki src'yi güncelleyin -->
+                <img src="img/profilFoto.jpg" alt="Profil Fotoğrafı" class="img-fluid rounded-circle shadow">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4">Merhaba, Ben Berha Çelik</h1>
+                <p class="lead text-muted">
+                    Sakarya Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.
+                </p>
+                <hr>
+                <p class="my-4">
+                    Yeni şeyler öğrenmeyi ve kendimi geliştirmeyi seven biriyim. Boş zamanlarımda teknolojiyle ilgili içerikler araştırmayı, kitap okumayı, bisiklet sürmeyi, 
+                    yürüyüş yapmayı severim.
+                    Hedefim kendimi sürekli geliştirip ileride mesleğimi en iyi şekilde icra etmektir.
+                </p>
+                <p>
+                    Aydın'ın Nazilli ilçesinde, 15 Aralık 2004 tarihinde dünyaya geldim. Şu anda İstanbul'un Bakırköy ilçesinde ikamet etmekteyim. Eğitim hayatım
+                    Aydın'da başladıktan sonra sırasıyla Iğdır'da ve İstanbul'da devam etti. Şu anda da hedeflediğim bilgisayar mühendisliği bölümünü Sakarya Üniversitesi'nde 
+                    okumktayım. Gelecekte mesleğimde başarılı biri olarak ülkem ve milletim adına güzel işlerde bulunmak isterim. Bunlar dışında yüzme sporuyla, hat sanatıyla,
+                    tatlı yapmayla ilgilenmeyi severim.
+                </p>
+                
+                <!-- Sosyal Medya Linkleri (isteğe bağlı) -->
+                <div class="mt-4">
+                    <a href="https://github.com/BerhaCelik" class="btn btn-outline-dark me-2">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="www.linkedin.com/in/berha-çelik-627295320" class="btn btn-outline-primary me-2">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hobilerim Bölümü -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h2 class="border-bottom pb-2 mb-4">Hobilerim ve İlgi Alanlarım</h2>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-code text-primary me-2"></i>Yazılım Geliştirme
+                        </h3>
+                        <p class="card-text">
+                            <!-- Yazılım ile ilgili ilgi alanlarınızı ve deneyimlerinizi yazın -->
+                            Yazılım geliştirmeye olan ilgim hakkında detaylı açıklama. Hangi dilleri/teknolojileri 
+                            sevdiğim, üzerinde çalıştığım projeler vs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-book text-success me-2"></i>Kitap Okumak
+                        </h3>
+                        <p class="card-text">
+                            <!-- Kitap okuma alışkanlığınız hakkında bilgi verin -->
+                            Hangi tür kitapları sevdiğim, son okuduğum kitaplar, en sevdiğim yazarlar hakkında bilgiler...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Daha fazla hobi ekleyebilirsiniz -->
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-music text-danger me-2"></i>Müzik
+                        </h3>
+                        <p class="card-text">
+                            <!-- Müzik ile ilgili ilgi alanlarınızı yazın -->
+                            Hangi tür müzikleri sevdiğim, favori sanatçılarım, çalabildiğim müzik aletleri vs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-hiking text-warning me-2"></i>Doğa Yürüyüşü
+                        </h3>
+                        <p class="card-text">
+                            <!-- Doğa yürüyüşü veya başka bir hobiyle ilgili bilgi verin -->
+                            Doğa yürüyüşü yapma alışkanlığım, gittiğim yerler, bu hobinin bana kattıkları hakkında bilgiler...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sevdiğim Sporlar Bölümü -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h2 class="border-bottom pb-2 mb-4">Sevdiğim Sporlar</h2>
+            </div>
+            
+            <!-- Spor Kartları - her kart için img/ klasörüne ilgili görselleri ekleyin -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/spor1.jpg" class="card-img-top" alt="Futbol">
+                    <div class="card-body">
+                        <h5 class="card-title">Futbol</h5>
+                        <p class="card-text">Futbol hakkında kısa bir açıklama ve neden sevdiğim.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/spor2.jpg" class="card-img-top" alt="Basketbol">
+                    <div class="card-body">
+                        <h5 class="card-title">Basketbol</h5>
+                        <p class="card-text">Basketbol hakkında kısa bir açıklama ve neden sevdiğim.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/spor3.jpg" class="card-img-top" alt="Yüzme">
+                    <div class="card-body">
+                        <h5 class="card-title">Yüzme</h5>
+                        <p class="card-text">Yüzme hakkında kısa bir açıklama ve neden sevdiğim.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Favori Alıntılar veya Ekstra Bilgiler (İsteğe Bağlı) -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h4 class="card-title">Favori Alıntım</h4>
+                        <blockquote class="blockquote">
+                            <p>"Hayatta en hakiki mürşit ilimdir, fendir."</p>
+                            <footer class="blockquote-footer">Mustafa Kemal Atatürk</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    
+    <footer class="py-3 mt-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2025 - [Adınız Soyadınız] | Web Teknolojileri Projesi</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Kendi JS Dosyamız -->
+    <script src="js/script.js"></script>
+</body>
+</html>
