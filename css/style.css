@@ -1,0 +1,180 @@
+/* Genel Stiller */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar Stilleri */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Aktif nav-link için alt çizgi efekti */
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #ffc107;
+    bottom: 0;
+    left: 10%;
+}
+
+/* Ana Sayfa Stilleri */
+.display-4 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+/* Profil Resmi Stilleri */
+.rounded-circle {
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.05);
+}
+
+/* Kart Stilleri */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Başlık Stilleri */
+h2 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+/* Sosyal Medya Butonları */
+.btn-outline-dark:hover, .btn-outline-primary:hover, .btn-outline-danger:hover {
+    transform: translateY(-3px);
+}
+
+/* Footer Stilleri */
+footer {
+    margin-top: auto; /* Sayfanın en altında kalması için */
+}
+
+/* Responsive Ayarlamalar */
+@media (max-width: 767.98px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .rounded-circle {
+        max-width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Özgeçmiş Sayfası Stilleri */
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #007bff;
+    bottom: 0;
+    left: 0;
+}
+
+section article h3 {
+    color: #343a40;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Eğitim ve proje bölümleri için zaman çizgisi efekti */
+#egitim article, #projeler article {
+    position: relative;
+    border-left: 2px solid #e9ecef;
+    padding-left: 1.5rem;
+}
+
+#egitim article::before, #projeler article::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff;
+    border-radius: 50%;
+    left: -7px;
+    top: 10px;
+}
+
+/* Beceriler için stil */
+#beceriler article h3 {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#beceriler ul li {
+    padding: 0.3rem 0;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 767.98px) {
+    .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+    
+    #egitim article, #projeler article {
+        padding-left: 1rem;
+    }
+}
