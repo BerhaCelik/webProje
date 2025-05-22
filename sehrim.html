@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitem - Şehrim</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (ikonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Kendi CSS Dosyamız -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-user-circle me-2"></i>Berha Çelik
+                </a>
+                
+                <!-- Mobil görünüm için hamburger menü -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navbar Linkleri -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fas fa-home me-1"></i>Hakkımda
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ozgecmis.html">
+                                <i class="fas fa-file-alt me-1"></i>Özgeçmiş
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="sehrim.html">
+                                <i class="fas fa-city me-1"></i>Şehrim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mirasimiz.html">
+                                <i class="fas fa-landmark me-1"></i>Mirasımız
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ilgi-alanlarim.html">
+                                <i class="fas fa-heart me-1"></i>İlgi Alanlarım
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">
+                                <i class="fas fa-envelope me-1"></i>İletişim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <i class="fas fa-sign-in-alt me-1"></i>Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+    <div class="container my-5">
+        <header class="mb-5">
+            <h1 class="border-bottom pb-2">Nazilli, Aydın</h1>
+            <p class="lead">Memleket güzelliği ve tarihiyle büyüleyen bir ilçe</p>
+        </header>
+        
+        <!-- Slider Bölümü -->
+        <section id="sehir-slider" class="mb-5">
+            <div id="sehirCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Slider Göstergeleri -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#sehirCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#sehirCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#sehirCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#sehirCarousel" data-bs-slide-to="3"></button>
+                </div>
+                
+                <!-- Slider İçeriği -->
+                <div class="carousel-inner rounded shadow">
+                    <div class="carousel-item active">
+                        <a href="https://aydin.bel.tr/">
+                            <img src="img/aydın1.jpg" class="d-block w-100" alt="Nazilli Genel Görünüm">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Nazilli'ye Genel Bakış</h3>
+                                <p>Şehir merkezinden panoramik görünüm</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#tarihi-yerler">
+                            <img src="img/nazilli2.jpg" class="d-block w-100" alt="Nazilli Tarihi Yerler">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Tarihi Yerler</h3>
+                                <p>Nazilli'nin tarihi ve kültürel mirası</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#dogal-guzellikler">
+                            <img src="img/nazilli3.jpg" class="d-block w-100" alt="Nazilli Doğal Güzellikler">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Doğal Güzellikler</h3>
+                                <p>Doğal manzaralar ve parklar</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#yoresel-lezzetler">
+                            <img src="img/nazilli4.jpg" class="d-block w-100" alt="Nazilli Yöresel Lezzetler">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Yöresel Lezzetler</h3>
+                                <p>Nazilli'nin meşhur yemekleri</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Slider Kontrolleri -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#sehirCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Önceki</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sehirCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Sonraki</span>
+                </button>
+            </div>
+        </section>
+        
+        <!-- Şehir Hakkında Genel Bilgi -->
+        <section id="genel-bilgi" class="mb-5">
+            <h2 class="text-primary mb-4">Nazilli Hakkında</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="img/sehir-genel.jpg" class="img-fluid rounded shadow" alt="Nazilli Genel">
+                </div>
+                <div class="col-md-6">
+                    <p>Nazilli, Aydın ilinin güzide bir ilçesidir. Menderes Nehri'nin güneyinde, dağların eteklerinde kurulmuştur. 15 Aralık 2004 tarihinde bu güzel şehirde dünyaya geldim.</p>
+                    
+                    <p>İlçenin tarihçesi çok eskiye dayanmaktadır. Nazilli, tarihte Lidyalılar, Persler, Romalılar, Bizanslılar, Selçuklular ve Osmanlılar gibi birçok medeniyete ev sahipliği yapmıştır.</p>
+                    
+                    <p>Nazilli'nin ekonomisi tarıma dayalıdır. Özellikle pamuk, incir, zeytin ve kestane üretimi önemli geçim kaynaklarıdır. Ayrıca sanayi alanında da gelişmektedir.</p>
+                    
+                    <h4 class="mt-4">Demografik Bilgiler</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Nüfus
+                            <span class="badge bg-primary rounded-pill">~150,000</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Yüzölçümü
+                            <span class="badge bg-primary rounded-pill">~664 km²</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Mahalle Sayısı
+                            <span class="badge bg-primary rounded-pill">54</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tarihi Yerler -->
+        <section id="tarihi-yerler" class="mb-5">
+            <h2 class="text-primary mb-4">Tarihi Yerler</h2>
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/yer1.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Nazilli Arkeoloji Müzesi">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title">Nazilli Arkeoloji Müzesi</h3>
+                            <p class="card-text">Nazilli Arkeoloji Müzesi, bölgenin zengin tarihini sergileyen önemli bir kültür merkezidir. Müzede, antik dönemlerden Osmanlı'ya kadar uzanan bir zaman dilimindeki eserler sergilenmektedir.</p>
+                            <p class="card-text">Müzenin en ilgi çekici parçaları arasında Lidya dönemine ait sikkeler, Roma dönemi heykelleri ve Bizans dönemi eserleri yer almaktadır.</p>
+                            <p class="card-text"><small class="text-muted">Adres: Yeni Mahalle, 9 Eylül Cd., Nazilli/Aydın</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/yer2.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Mastaura Antik Kenti">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title">Mastaura Antik Kenti</h3>
+                            <p class="card-text">Mastaura Antik Kenti, Nazilli'nin kuzeydoğusunda yer alan ve M.Ö. 1. yüzyılda kurulan önemli bir yerleşim merkezidir. Antik kentte, tiyatro, tapınak ve hamam kalıntıları bulunmaktadır.</p>
+                            <p class="card-text">Arkeolojik kazıların halen devam ettiği bölgede, her yıl yeni buluntular ortaya çıkarılmaktadır. Bölge, tarihi öneminin yanı sıra doğal güzellikleriyle de dikkat çekmektedir.</p>
+                            <p class="card-text"><small class="text-muted">Adres: Bozkurt Mahallesi yakınları, Nazilli/Aydın</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Doğal Güzellikler -->
+        <section id="dogal-guzellikler" class="mb-5">
+            <h2 class="text-primary mb-4">Doğal Güzellikler</h2>
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/yer3.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Menderes Nehri">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title">Menderes Nehri</h3>
+                            <p class="card-text">Büyük Menderes Nehri, Nazilli'nin kuzeyinden geçen ve bölgenin en önemli su kaynağını oluşturan tarihi bir nehirdir. Antik çağlardan beri bölgenin can damarı olan nehir, verimli ovaların oluşmasını sağlamıştır.</p>
+                            <p class="card-text">Nehir çevresinde piknik alanları ve yürüyüş parkurları bulunmaktadır. Özellikle bahar aylarında nehir kenarındaki yeşil alanlar, doğa severler için ideal bir dinlenme alanı oluşturur.</p>
+                            <p class="card-text"><small class="text-muted">Konum: Nazilli'nin kuzey kısmı boyunca uzanır</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Yöresel Lezzetler -->
+        <section id="yoresel-lezzetler" class="mb-5">
+            <h2 class="text-primary mb-4">Yöresel Lezzetler</h2>
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/yer4.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Nazilli Pidesi">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title">Nazilli Pidesi</h3>
+                            <p class="card-text">Nazilli'nin meşhur lezzetlerinden biri olan Nazilli Pidesi, özel bir hamur ve yöreye özgü malzemelerle hazırlanır. Uzun ve ince yapısıyla diğer pide çeşitlerinden ayrılır.</p>
+                            <p class="card-text">İçine kıyma, peynir, kuşbaşı et gibi malzemeler konulabilen pidenin en önemli özelliği, hamurunun mayalanma süresi ve özel fırınlarda pişirilmesidir.</p>
+                            <p class="card-text"><small class="text-muted">Şehir merkezindeki birçok restoranda tadılabilir</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Etkinlikler ve Festivaller -->
+        <section id="etkinlikler" class="mb-5">
+            <h2 class="text-primary mb-4">Etkinlikler ve Festivaller</h2>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title">İncir Festivali</h3>
+                            <p class="card-text">Her yıl Ağustos ayında düzenlenen İncir Festivali, Nazilli'nin en önemli tarımsal ürünlerinden biri olan inciri kutlamak için yapılır. Festival kapsamında konserler, yarışmalar ve yöresel ürün sergisi düzenlenir.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Tarih: Ağustos ayı</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title">Kültür ve Sanat Festivali</h3>
+                            <p class="card-text">Yılın farklı zamanlarında düzenlenen Kültür ve Sanat Festivali'nde, yerel ve ulusal sanatçıların katılımıyla konserler, tiyatro gösterileri ve sanat sergileri gerçekleştirilir.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Tarih: Yıl içinde farklı zamanlarda</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+    
+    <footer class="py-3 mt-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2025 - Berha Çelik | Web Teknolojileri Projesi</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Kendi JS Dosyamız -->
+    <script src="js/script.js"></script>
+</body>
+</html>
