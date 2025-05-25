@@ -9,7 +9,7 @@ Bu proje, kendimi ve memleketimi tanıtan kişisel bir web sitesi oluşturmayı 
 - Hakkında sayfası
 - Özgeçmiş sayfası
 - Şehrim sayfası
-- Mirasımız/Takımımız sayfası
+- Takımımız sayfası
 - İlgi Alanlarım sayfası
 - Login sayfası
 - İletişim sayfası

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sitem - Takımımız</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome (ikonlar için) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Kendi CSS Dosyamız -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-user-circle me-2"></i>Berha Çelik
+                </a>
+                
+                <!-- Mobil görünüm için hamburger menü -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navbar Linkleri -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fas fa-home me-1"></i>Hakkımda
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ozgecmis.html">
+                                <i class="fas fa-file-alt me-1"></i>Özgeçmiş
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sehrim.html">
+                                <i class="fas fa-city me-1"></i>Şehrim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="takimimiz.html">
+                                <i class="fas fa-landmark me-1"></i>Takımımız
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ilgi-alanlarim.html">
+                                <i class="fas fa-heart me-1"></i>İlgi Alanlarım
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">
+                                <i class="fas fa-envelope me-1"></i>İletişim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <i class="fas fa-sign-in-alt me-1"></i>Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<main>
+    <div class="container my-5">
+        <header class="mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                    <img src="img/aydinspor-logo.webp" alt="Aydınspor Logo" class="img-fluid">
+                </div>
+                <div class="col-md-10">
+                    <h1 class="border-bottom pb-2">Aydınspor 1923</h1>
+                    <p class="lead">Aydın'ın gurur kaynağı futbol takımı</p>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Takım Tanıtımı -->
+        <section id="takim-tanitim" class="mb-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2>Takım Hakkında</h2>
+                    <p>Aydınspor 1923, Aydın ilinin en köklü ve başarılı futbol takımıdır. 1923 yılında kurulan takım, neredeyse bir asırlık geçmişiyle Aydın halkının gönlünde özel bir yere sahiptir.</p>
+                    
+                    <p>Takım, siyah-beyaz renklerle sahaya çıkar ve bu renkler Aydın halkı için büyük bir gurur kaynağıdır. Aydınspor, sadece bir futbol takımı değil, aynı zamanda şehrin kültürel kimliğinin bir parçasıdır.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h4>Takım Bilgileri</h4>
+                            <table class="table table-striped">
+                                <tr>
+                                    <td><strong>Kuruluş Yılı:</strong></td>
+                                    <td>1923</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Takım Renkleri:</strong></td>
+                                    <td>Siyah-Beyaz</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Stadyum:</strong></td>
+                                    <td>Aydın Adnan Menderes Stadyumu</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Kapasite:</strong></td>
+                                    <td>15,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Mevcut Lig:</strong></td>
+                                    <td>3. Lig</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/aydin-stadyum.jpeg" alt="Aydın Adnan Mendreres Stadyumu" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-warning text-dark">
+                            <h4 class="my-0">Son Maç Sonuçları</h4>
+                        </div>
+                        <div class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Aydınspor vs Menemenspor</span>
+                                <span class="badge bg-success">2-1</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Bergama Belediyespor vs Aydınspor</span>
+                                <span class="badge bg-danger">1-0</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Aydınspor vs Tire 1922</span>
+                                <span class="badge bg-success">3-2</span>
+                            </li>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Son 3 maç sonucu</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tarihçe -->
+        <section id="tarihce" class="mb-5">
+            <h2 class="text-primary mb-4">Tarihçe</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker bg-primary"></div>
+                    <div class="timeline-content">
+                        <h4>1923 - Kuruluş</h4>
+                        <p>Aydınspor, Cumhuriyet'in kuruluş yılında genç bir grup futbol severin bir araya gelmesiyle kuruldu.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker bg-success"></div>
+                    <div class="timeline-content">
+                        <h4>1960-70 - Altın Yıllar</h4>
+                        <p>Takımın en başarılı dönemi. 2. Lig'e yükselme ve Türkiye Kupası'nda önemli başarılar.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker bg-warning"></div>
+                    <div class="timeline-content">
+                        <h4>1985 - Stadyum Açılışı</h4>
+                        <p>Modern Aydın Atatürk Stadyumu'nun açılışı takım için yeni bir dönem başlattı.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker bg-info"></div>
+                    <div class="timeline-content">
+                        <h4>2020'ler - Yeniden Yapılanma</h4>
+                        <p>Genç kadro ve modern futbol anlayışı ile yeniden yükselişe geçiş dönemi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Ünlü Oyuncular -->
+        <section id="unlu-oyuncular" class="mb-5">
+            <h2 class="text-primary mb-4">Ünlü Oyuncularımız</h2>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/oyuncu1.jpeg" class="card-img-top" alt="Oyuncu 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ufuk Özbek</h5>
+                            <p class="card-text">Aydınspor'un efsane golcüsü. 1970-1985 yılları arasında takımda oynadı ve 150'den fazla gol attı.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Pozisyon: Forvet</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/oyuncu2.jpeg" class="card-img-top" alt="Oyuncu 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ali Demir</h5>
+                            <p class="card-text">Savunmanın duvarı olarak bilinen efsane libero. Takım kaptanlığı da yapmıştır.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Pozisyon: Defans</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/oyuncu3.jpeg" class="card-img-top" alt="Oyuncu 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Hasan Özkan</h5>
+                            <p class="card-text">Yaratıcı oyun kurucu. Türkiye Milli Takımı'nda da forma giymiştir.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Pozisyon: Orta Saha</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Başarılar -->
+        <section id="basarilar" class="mb-5">
+            <h2 class="text-primary mb-4">Başarılarımız</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card border-success shadow-sm">
+                        <div class="card-header bg-success text-white">
+                            <h4 class="my-0"><i class="fas fa-trophy me-2"></i>Lig Başarıları</h4>
+                        </div>
+                        <div class="list-group list-group-flush">
+                            <li class="list-group-item">🥇 3. Lig Şampiyonluğu (2015)</li>
+                            <li class="list-group-item">🥈 Bölgesel Amatör Lig İkinciliği (2010)</li>
+                            <li class="list-group-item">🥉 İl Şampiyonluğu (5 kez)</li>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card border-warning shadow-sm">
+                        <div class="card-header bg-warning text-dark">
+                            <h4 class="my-0"><i class="fas fa-medal me-2"></i>Kupa Başarıları</h4>
+                        </div>
+                        <div class="list-group list-group-flush">
+                            <li class="list-group-item">🏆 Türkiye Kupası 3. Tur (1978)</li>
+                            <li class="list-group-item">🏆 Ege Bölgesi Kupası Şampiyonluğu</li>
+                            <li class="list-group-item">🏆 Aydın İl Kupası (8 kez)</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Taraftar Kültürü -->
+        <section id="taraftar" class="mb-5">
+            <h2 class="text-primary mb-4">Taraftar Kültürümüz</h2>
+            
+            <div class="card bg-light shadow-sm">
+                <div class="card-body">
+                    <h4>Aydın Gönüllüleri</h4>
+                    <p>Aydınspor'un sadık taraftarları "Aydın Gönüllüleri" olarak bilinir. Her maçta takımlarının yanında olan bu kalabalık, stadyuma renk ve ses getirir.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h5>Tezahüratlar</h5>
+                            <ul>
+                                <li>"Haydi Aydın, Haydi Aydınspor!"</li>
+                                <li>"Sarı-Lacivert Aşkı"</li>
+                                <li>"Ege'nin Aslanları"</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Gelenek ve Görenekler</h5>
+                            <ul>
+                                <li>Maç öncesi kortej yürüyüşü
+                                    <div class="col-md-6">
+                            <h5>Gelenek ve Görenekler</h5>
+                            <ul>
+                                <li>Maç öncesi kortej yürüyüşü</li>
+                                <li>Siyah-Beyaz atkı ve forma geleneği</li>
+                                <li>Gol sonrası "Aydın" tezahüratı</li>
+                                <li>Sezon sonu taraftar buluşması</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <blockquote class="blockquote mt-4">
+                        <p class="mb-0">"Aydınspor sadece bir takım değil, Aydın'ın kimliğidir. Her maçta stadyumda olmak bizim için bir onurdur."</p>
+                        <footer class="blockquote-footer mt-2">
+                            Mustafa Kaya, <cite title="Taraftar Derneği Başkanı">Aydın Gönüllüleri Derneği Başkanı</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Mevcut Kadro -->
+        <section id="kadro" class="mb-5">
+            <h2 class="text-primary mb-4">2024-2025 Sezonu Kadrosu</h2>
+            
+            <!-- Kaleciler -->
+            <div class="mb-4">
+                <h4 class="bg-info text-white p-2 rounded">
+                    <i class="fas fa-hand-paper me-2"></i>Kaleciler
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>1</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Emre Yılmaz</h6>
+                                        <small class="text-muted">26 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>12</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Ahmet Demir</h6>
+                                        <small class="text-muted">23 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Defans Oyuncuları -->
+            <div class="mb-4">
+                <h4 class="bg-success text-white p-2 rounded">
+                    <i class="fas fa-shield-alt me-2"></i>Defans
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>3</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Murat Özkan</h6>
+                                        <small class="text-muted">28 yaş - Kaptan</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>4</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Serkan Kaya</h6>
+                                        <small class="text-muted">25 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>5</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Burak Arslan</h6>
+                                        <small class="text-muted">24 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Orta Saha -->
+            <div class="mb-4">
+                <h4 class="bg-warning text-dark p-2 rounded">
+                    <i class="fas fa-running me-2"></i>Orta Saha
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-warning text-dark rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>8</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Kemal Erdoğan</h6>
+                                        <small class="text-muted">27 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-warning text-dark rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>10</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Cem Yıldız</h6>
+                                        <small class="text-muted">22 yaş - Yıldız Oyuncu</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-warning text-dark rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>6</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Oğuz Şahin</h6>
+                                        <small class="text-muted">29 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hücum -->
+            <div class="mb-4">
+                <h4 class="bg-danger text-white p-2 rounded">
+                    <i class="fas fa-futbol me-2"></i>Hücum
+                </h4>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>9</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Hakan Güneş</h6>
+                                        <small class="text-muted">24 yaş - Golcü</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                        <strong>11</strong>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Fatih Kara</h6>
+                                        <small class="text-muted">21 yaş</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Stadyum ve Tesisler -->
+        <section id="stadyum" class="mb-5">
+            <h2 class="text-primary mb-4">Stadyum ve Tesislerimiz</h2>
+            
+            <div class="row">
+                <div class="col-md-8 mb-4">
+                    <img src="img/aydin-stadyum.jpeg" alt="Aydın Adnan Menderes Stadyumu" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="my-0">Aydın Adnan Menderes Stadyumu</h4>
+                        </div>
+                        <div class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>Kapasite:</strong> 15,000 kişi
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Açılış:</strong> 1985
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Zemin:</strong> Doğal çim
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Tribünler:</strong> 4 tribün
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Özellikler:</strong> 
+                                <ul class="mt-2 mb-0">
+                                    <li>Modern soyunma odaları</li>
+                                    <li>Basın tribünü</li>
+                                    <li>VIP loca</li>
+                                    <li>Atletizm pisti</li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="fas fa-dumbbell text-primary me-2"></i>Antrenman Tesisleri</h5>
+                            <ul>
+                                <li>Ana antrenman sahası (doğal çim)</li>
+                                <li>Yedek antrenman sahası (sentetik)</li>
+                                <li>Fitness merkezi</li>
+                                <li>Sağlık merkezi ve fizyoterapi ünitesi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5><i class="fas fa-users text-success me-2"></i>Sosyal Tesisler</h5>
+                            <ul>
+                                <li>Oyuncu dinlenme salonu</li>
+                                <li>Yönetim ofisleri</li>
+                                <li>Basın toplantı salonu</li>
+                                <li>Fan shop (taraftar ürünleri mağazası)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gelecek Hedefler -->
+        <section id="hedefler" class="mb-5">
+            <h2 class="text-primary mb-4">Gelecek Hedeflerimiz</h2>
+            
+            <div class="card border-primary shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-primary">2025-2030 Vizyonumuz</h4>
+                    <p class="card-text">Aydınspor olarak, gelecek 5 yıl içinde gerçekleştirmek istediğimiz hedeflerimiz:</p>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Sportif Hedefler</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-trophy text-warning me-2"></i>2. Lig'e yükselme
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-star text-primary me-2"></i>Türkiye Kupası'nda üst turlara çıkma
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-seedling text-success me-2"></i>Genç yetenekleri bünyemize katma
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-handshake text-info me-2"></i>Altyapı sistemini güçlendirme
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <h5>Sosyal Hedefler</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-heart text-danger me-2"></i>Taraftar sayısını artırma
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-home text-warning me-2"></i>Stadyum kapasitesini genişletme
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-graduation-cap text-primary me-2"></i>Futbol okulu açma
+                                </li>
+                                <li class="list-group-item border-0 ps-0">
+                                    <i class="fas fa-globe text-success me-2"></i>Uluslararası dostluk maçları
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+    
+    <footer class="py-3 mt-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2025 - Berha Çelik | Web Teknolojileri Projesi</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Kendi JS Dosyamız -->
+    <script src="js/script.js"></script>
+</body>
+</html>

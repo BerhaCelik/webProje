@@ -178,3 +178,201 @@ section article h3 {
         padding-left: 1rem;
     }
 }
+
+/* Takımımız Sayfası Stilleri */
+
+/* Timeline stilleri */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e9ecef;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -38px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.timeline-content {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.timeline-content h4 {
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+/* Kadro kartları */
+.card .d-flex .rounded-circle {
+    min-width: 40px;
+    font-weight: bold;
+}
+
+/* Pozisyon renkleri */
+.bg-info { background-color: #17a2b8 !important; }
+.bg-success { background-color: #28a745 !important; }
+.bg-warning { background-color: #ffc107 !important; }
+.bg-danger { background-color: #dc3545 !important; }
+
+/* Takım logosu */
+header img {
+    max-height: 80px;
+}
+
+/* Stadyum görseli */
+#stadyum img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Hover efektleri */
+.card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+/* Sosyal medya butonları */
+.btn i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 767.98px) {
+    .timeline {
+        padding-left: 20px;
+    }
+    
+    .timeline::before {
+        left: 10px;
+    }
+    
+    .timeline-marker {
+        left: -28px;
+    }
+    
+    header .row {
+        text-align: center;
+    }
+    
+    header img {
+        margin-bottom: 15px;
+    }
+}
+
+/* İlgi Alanlarım Sayfası Stilleri */
+
+/* Film kartları */
+.movie-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.movie-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Yükleniyor animasyonu */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Sözler için özel stil */
+.blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+}
+
+/* Badge'ler için */
+.badge {
+    font-size: 0.8rem;
+}
+
+/* Responsive ayarlar */
+@media (max-width: 767.98px) {
+    .movie-card img {
+        height: 250px;
+    }
+}
+
+/* Login Sayfası Stilleri */
+.login-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-card {
+    border: none;
+    border-radius: 15px;
+}
+
+.login-header {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #0d6efd, #0056b3);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+.input-group .btn {
+    border-left: none;
+}
+
+/* Başarılı giriş animasyonu */
+@keyframes success-bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+}
+
+.fa-check-circle {
+    animation: success-bounce 2s ease-in-out;
+}
